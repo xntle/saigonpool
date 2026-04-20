@@ -106,7 +106,7 @@ export default function WaterCanvas({ apiRef }: { apiRef?: React.MutableRefObjec
           d[pi]     = Math.floor(8  + spec * 120);
           d[pi + 1] = Math.floor(28 + t * 55  + spec * 80);
           d[pi + 2] = Math.floor(72 + t * 100 + spec * 140);
-          d[pi + 3] = Math.floor(40 + t * 60  + spec * 40);
+          d[pi + 3] = Math.floor(t * 80 + spec * 60);
         }
       }
       ctx.putImageData(imageData, 0, 0);

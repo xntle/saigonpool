@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "LLD | Hồ Bơi Cao Cấp",
+  title: "Saigon Pool | Hồ Bơi Cao Cấp",
   description: "Chuyên thiết kế và thi công hồ bơi cao cấp",
 };
 
